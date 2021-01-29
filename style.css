@@ -2,8 +2,57 @@
 	padding: 0;
 	box-sizing: border-box;
 	font-family: 'Libre Franklin', sans-serif;
+	font-size: 20px;
 }
  .row{
  	max-width: 1140px;
  	margin:0 auto;
+ }
+
+ header{
+ background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("Image/hero.jpg");
+ height: 100vh;
+ background-size: cover;
+ background-position: center;	
+ }
+ .hero-text-box{
+ 	position: absolute;
+ 	width: 1140px;
+ 	top:50%;
+ 	left:50%;
+ 	transform: translate(-50%, -50%);
+ }
+ h1{
+ 	margin-bottom: 20px;
+ 	font-size: 200%;
+ 	color:white;
+ 	font-weight: 300;
+ 	text-transform: uppercase;
+ 	letter-spacing: 1px;
+ 	word-spacing: 4px;
+ }
+ .btn:link,
+ .btn:visited{
+ 	display: inline-block;
+ 	padding: 10px 30px;
+ 	font-weight: 300;
+ 	text-decoration: none;
+ 	border-radius: 50px;
+ 	color: white;
+ }
+
+ .btn-full:link,
+ .btn-full:visited{
+ 	background-color: #3498db;
+
+ }
+
+.btn-ghost:link,
+.btn-ghost:visited{
+	border:1px solid orange;
+	color: orange;
+}
+ .btn:hover,
+ .btn:active{
+background-color: #b94b0d;
  }
