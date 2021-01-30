@@ -38,12 +38,14 @@
  	font-weight: 300;
  	text-decoration: none;
  	border-radius: 50px;
- 	color: white;
+	 color: white;
+	 transition: background-color 0.5s, color 0.5s, border 0.5s;
  }
 
  .btn-full:link,
  .btn-full:visited{
- 	background-color: #3498db;
+	 background-color: #3498db;
+	 margin-right: 15px;
 
  }
 
@@ -56,3 +58,12 @@
  .btn:active{
 background-color: #b94b0d;
  }
+ .btn-full:hover,
+ .btn-full:active{
+	 color: rgb(160, 160, 243);
+	 border: 1px solid rgb(185, 185, 230);
+ }
+ .btn-ghost:hover,
+.btn-ghost:active{
+	color: rgb(230, 223, 211);
+}
