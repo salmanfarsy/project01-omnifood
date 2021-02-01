@@ -8,6 +8,9 @@
  	max-width: 1140px;
  	margin:0 auto;
  }
+ section{
+	padding:80px 0; 
+ }
 
  header{
  background-image: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url("Image/hero.jpg");
@@ -22,15 +25,54 @@
  	left:50%;
  	transform: translate(-50%, -50%);
  }
- h1{
- 	margin-bottom: 20px;
- 	font-size: 200%;
- 	color:white;
- 	font-weight: 300;
+ h1, h2, h3{
+font-weight: 300;
  	text-transform: uppercase;
  	letter-spacing: 1px;
  	word-spacing: 4px;
  }
+ h1{
+	margin-bottom: 20px;
+ 	font-size: 200%;
+ 	color:white;
+ }
+ h2{
+	 font-size: 180%;
+	 word-spacing: 2px;
+	 text-align: center;
+	 margin-bottom: 30px;
+ }
+ h3{
+   font-size:110%;
+   margin-bottom: 15px;
+ }
+ h2:after{
+	 display: block;
+	 height: 2px;
+	 background-color: burlywood;
+	 content: " ";
+	 width: 100%;
+	 margin: 0 auto;
+	 margin-top: 30px;
+ }
+ .long-copy{
+	 line-height: 140%;
+	 width: 70%;
+	 margin-left: 15%;
+ }
+ .box{
+	 padding: 1%;
+ }
+ .box p{
+	 font-size: 90%;
+	 line-height: 140%;
+ }
+ .icon-bg{
+	 font-size: 300%;
+	 display: block;
+	 color: #b94b0d;
+	 margin-bottom: 10px;
+	 }
  .btn:link,
  .btn:visited{
  	display: inline-block;
