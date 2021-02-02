@@ -61,7 +61,7 @@ font-weight: 300;
 	 margin-left: 15%;
  }
  .box{
-	 padding: 1%;
+	 padding: 0;
  }
  .box p{
 	 font-size: 90%;
@@ -156,8 +156,17 @@ background-color: #b94b0d;
 .meal-photo{
 	width: 100%;
 	margin:0;
+	overflow: hidden;
+	background-color: black;
 }
 .meal-photo img{
+	opacity: .7;
 	width:100%;
 	height: auto;
+	transition: all 2s;
+	transform: scale(1.5);
+}
+.meal-photo img:hover{
+	transform: scale(1.1);
+	opacity: 1;	
 }
