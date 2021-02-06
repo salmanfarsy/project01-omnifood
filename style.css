@@ -291,3 +291,45 @@ cite img{
 	margin-bottom: 0;
 	padding: 0;
 }
+.plan{
+
+}
+.plan-box{
+	background-color: antiquewhite;
+	border-radius: 5px;
+	width: 90%;
+	margin-left: 5%;
+	box-shadow: 0 2px 2px rgb(199, 199, 199);
+}
+.plan-box div{
+	padding:15px;
+	border-bottom: 1px solid rgb(170, 170, 170);
+}
+.plan-box div:last-child{
+	text-align: center;
+	border-bottom: none;
+}
+.plan-box div:first-child{
+	background-color: rgb(241, 236, 226);
+	border-top-left-radius:5px;
+	border-top-right-radius:5px;
+}
+ .plan-price{
+	font-size: 300%;
+	margin-bottom: 10px;
+	font-weight: 100;
+}
+.meal-price span{
+	font-size: 30%;
+	font-weight: 300;
+	color: orange;
+}
+.meal-price{
+font-size: 80% ;
+}
+.plan-box ul{
+	list-style: none;
+}
+.plan-box ul li{
+	padding: 5px 0;
+}
