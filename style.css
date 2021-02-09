@@ -74,7 +74,8 @@ font-weight: 300;
 	 margin-bottom: 10px;
 	 }
  .btn:link,
- .btn:visited{
+ .btn:visited,
+ input[type = submit]{
  	display: inline-block;
  	padding: 10px 30px;
  	font-weight: 300;
@@ -85,7 +86,8 @@ font-weight: 300;
  }
 
  .btn-full:link,
- .btn-full:visited{
+ .btn-full:visited,
+ input[type = submit]{
 	 background-color: #3498db;
 	 margin-right: 15px;
 
@@ -97,11 +99,13 @@ font-weight: 300;
 	color: orange;
 }
  .btn:hover,
- .btn:active{
+ .btn:active,
+ input[type = submit]:hover{
 background-color: #b94b0d;
  }
  .btn-full:hover,
- .btn-full:active{
+ .btn-full:active,
+ input[type = submit]:hover{
 	 color: rgb(160, 160, 243);
 	 border: 1px solid rgb(185, 185, 230);
  }
@@ -332,4 +336,30 @@ font-size: 80% ;
 }
 .plan-box ul li{
 	padding: 5px 0;
+}
+.contact{
+	width: 60%;
+	margin: 0 auto;
+}
+input[type = text],
+input[type = email],
+select,
+textarea{
+	width: 100%;
+	padding: 7px;
+	border-radius: 3px;
+	border: 1px solid rgb(219, 219, 219);
+}
+textarea{
+	height: 100px;
+}
+input[type = checkbox]{
+	margin: 10px 50px 10px 0;
+}
+.form{
+	margin-top: 25%;
+}
+input[type = submit]{
+	display: block;
+
 }
