@@ -358,6 +358,7 @@ input[type = checkbox]{
 }
 .form{
 	margin-top: 25%;
+	padding: 25%;
 }
 input[type = submit]{
 	display: block;
