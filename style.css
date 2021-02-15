@@ -364,3 +364,50 @@ input[type = submit]{
 	display: block;
 
 }
+
+footer{
+	background-color: rgb(82, 82, 82);
+	padding: 10px;
+}
+footer p{
+	color: #888;
+	font-size: 90;
+	text-align: center;
+	margin-top: 30px;
+}
+.footer-nav{
+	list-style:none;
+	float: left;
+}
+.social{
+	list-style: none;
+	float: right;
+}
+.footer-nav li,
+.social li{
+	display: inline-block;
+	margin-right: 20px;
+}
+.footer-nav li:last-child,
+.social li:last-child{
+	margin: 0;
+}
+
+.footer-nav li a:link,
+.footer-nav li a:visited,
+.social li a:link,
+.social li a:visited{
+	text-decoration: none;
+	border: none;
+	color: rgb(179, 177, 177);
+	transition: all 1s;
+}
+.footer-nav li a:hover,
+.footer-nav li a:active{
+color: white;
+}
+
+.social li a:link,
+.social li a:active{
+font-size: 180%;
+}
