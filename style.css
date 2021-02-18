@@ -3,6 +3,9 @@
 	box-sizing: border-box;
 	font-family: 'Libre Franklin', sans-serif;
 	font-size: 20px;
+	
+}
+body{
 	overflow-x: hidden ;
 }
  .row{

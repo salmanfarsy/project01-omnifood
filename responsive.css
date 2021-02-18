@@ -1,11 +1,13 @@
+
 @media only screen and (max-width: 480px){
- section{
-     padding: 25px 0;
- }   
- .contact{
-     width:100%
- }
-}
+    section{
+        padding: 25px 0;
+    }   
+    .contact{
+        width:100%
+    }
+   }
+   
 @media only screen and (max-width: 767px){
     body{
         font-size: 16px;
@@ -53,58 +55,60 @@
         text-align: center;
     }
 }
-@media only screen and (max-width: 1023px){
-body{
-    font-size: 18px;
-}   
-section{
-    padding: 60px 0;
-} 
-.long-copy{
-    width: 80%;
-    margin-left: 10%;
-}
-.steps-box{
-    margin-top: 10px;
 
-}
-.steps-box:last-child{
-    margin-top: 10px;
-}
-.work-step{
-    margin-bottom: 40px;
-}
-.work-step:last-child{
-    margin-bottom: 60px;
-}
-.app{
-    width: 50%;
-}
-.icon-sm{
-    width: 17px;
-    margin-right: 5px;
-}
-.city{
-    font-size: 90%;
-}
-.plan-box{
-    width: 100%;
-    margin-left: 0%;
-}
-.plan-price{
-    font-size: 250%;
-}
-.contact{
-    width: 80%;
-}
-}
+@media only screen and (max-width: 1023px){
+    body{
+        font-size: 18px;
+    }   
+    section{
+        padding: 60px 0;
+    } 
+    .long-copy{
+        width: 80%;
+        margin-left: 10%;
+    }
+    .steps-box{
+        margin-top: 10px;
+    
+    }
+    .steps-box:last-child{
+        margin-top: 10px;
+    }
+    .work-step{
+        margin-bottom: 40px;
+    }
+    .work-step:last-child{
+        margin-bottom: 60px;
+    }
+    .app{
+        width: 50%;
+    }
+    .icon-sm{
+        width: 17px;
+        margin-right: 5px;
+    }
+    .city{
+        font-size: 90%;
+    }
+    .plan-box{
+        width: 100%;
+        margin-left: 0%;
+    }
+    .plan-price{
+        font-size: 250%;
+    }
+    .contact{
+        width: 80%;
+    }
+    }
+    
 @media only screen and (max-width: 1200px){
- .hero-text-box{
-  width: 100%;
-  padding: 0 2%;
- 
- }
- .row{
+    .hero-text-box{
+     width: 100%;
      padding: 0 2%;
- }
-}
+    
+    }
+    .row{
+        padding: 0 2%;
+    }
+   }
