@@ -442,3 +442,8 @@ color: white;
 .social li a:active{
 font-size: 180%;
 }
+
+.animate__animated{
+	opacity: 0;
+	transition: all 3s;
+} 

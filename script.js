@@ -31,5 +31,34 @@ $('.btn-ghost').click(function(){
       }
     });
   });
+  $('.section-features').waypoint(function(direction){
+ $('#js-1').addClass('animate__fadeIn') 
+}, {
+  offset: '65%;'
+});
 
+$('.section-steps').waypoint(function(direction){
+  $('.app').addClass('animate__fadeInUp') 
+ }, {
+   offset: '65%;'
+ });
+
+ $('.cities').waypoint(function(direction){
+  $('#js-2').addClass('animate__fadeIn') 
+ }, {
+   offset: '0;'
+ });
+
+ $('.plan').waypoint(function(direction){
+  $('#js-3').addClass('animate__fadeInRightBig') 
+ }, {
+   offset: '50%;'
+ });
+
+ $('.section-meals').waypoint(function(direction){
+  $('.section-meals').addClass('animate__fadeInLeft') 
+ }, {
+   offset: '50%;'
+ });
+ 
 });
