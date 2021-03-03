@@ -83,6 +83,30 @@
         }
         .main-nav{
             display: none;
+            float: left;
+        
+        }
+        .main-nav li{
+            display: block;
+            margin-top: 10px;
+            border: none;
+        }
+        .main-nav li a:active,
+        .main-nav li a:visited,
+        .main-nav li a:link{
+            display: block;
+            border: none;
+            
+        }
+        nav .sticky{
+            padding: 0;
+        }
+        .sticky li{
+            padding: 0;
+            margin: 0;
+        }
+        #mobile{
+            display: inline-block;
         }
         .long-copy{
             width: 100%;

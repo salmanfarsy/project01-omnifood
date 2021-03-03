@@ -447,3 +447,15 @@ font-size: 180%;
 	opacity: 0;
 	transition: all 3s;
 } 
+#mobile{
+	float: right;
+	margin-top:10px ;
+	display: none;
+	cursor: pointer;
+	
+  }
+  #mobile #menu{
+	  font-size: 40px;
+	  color: rgb(105, 105, 105);
+  }
+  

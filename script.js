@@ -60,5 +60,9 @@ $('.section-steps').waypoint(function(direction){
  }, {
    offset: '50%;'
  });
+
+ $('#menu').click(function(){
+   $('.main-nav').slideToggle(500);
+ })
  
 });
